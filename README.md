@@ -13,7 +13,7 @@
 - The tool is written in C # in Visual Studio 2019 on .NET Framework on Windows 10 - windows form aplications.
 
 ## Setup
-To use this on your computer u have to change in App.config file localization to your database or a filepath if u save data to text file.
+To use this on your computer u have to change in App.config: localization to your database or a filepath, if u save data to text file.
 
 ` <appSettings>
     <add key="filePath" value="your localisation"/>
