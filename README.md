@@ -16,6 +16,7 @@
 To use this on your computer u have to change in App.config: localization to your database or a filepath, if u save data to text file.
 
 Text File
+
 ` <appSettings>
     <add key="filePath" value="your localisation"/>
   </appSettings> `
@@ -24,6 +25,7 @@ Text File
   or
   
  Database
+ 
  ` <connectionStrings>
     <add name="Tournaments" connectionString="Server= your server name ;Database=Tournaments;Trusted_Connection=True;" providerName="System.Data.SqlClient"/>
   </connectionStrings> `
