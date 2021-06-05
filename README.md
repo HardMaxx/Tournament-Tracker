@@ -18,7 +18,11 @@ To use this on your computer u have to change in App.config file localization to
 ` <appSettings>
     <add key="filePath" value="your localisation"/>
   </appSettings> `
+  
+  
   or
+  
+  
  ` <connectionStrings>
     <add name="Tournaments" connectionString="Server= your server name ;Database=Tournaments;Trusted_Connection=True;" providerName="System.Data.SqlClient"/>
   </connectionStrings> `
