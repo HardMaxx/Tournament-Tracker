@@ -10,14 +10,19 @@ namespace TrackerLibrary.Models
     public class TeamModel
     {
         /// <summary>
-        /// This represent a list of people that are in the team.
+        /// This is a id team .
         /// </summary>
-        public List<PersonModel> TeamMembers { get; set; } = new List<PersonModel>();
-        
+        public int Id { get; set; }
         /// <summary>
         /// This is a team nane.
         /// </summary>
         public string TeamName { get; set; }
+        /// <summary>
+        /// This represent a list of people that are in the team.
+        /// </summary>
+        public List<PersonModel> TeamMembers { get; set; } = new List<PersonModel>();
+        
+       
 
     }
 }
