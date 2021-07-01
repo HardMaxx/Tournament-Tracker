@@ -284,6 +284,7 @@ namespace TrackerUI
             this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Name = "CreateTeamForm";
             this.Text = "CreateTeamForm";
+            this.Load += new System.EventHandler(this.CreateTeamForm_Load);
             this.addNewMemberGroupBox.ResumeLayout(false);
             this.addNewMemberGroupBox.PerformLayout();
             this.ResumeLayout(false);
