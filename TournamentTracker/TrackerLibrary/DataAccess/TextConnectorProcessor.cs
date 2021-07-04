@@ -143,7 +143,7 @@ namespace TrackerLibrary.DataAccess.TextHelpers
 
                     foreach (string id in prizeIds)
                     {
-                        tm.Prizes.Add(prizes.Where(x => x.Id == int.Parse(id)).First());
+                        tm.Prizes.Add(prizes.Where(x => x.Id == int.Parse(id)).First()); 
                     } 
                 }
 
