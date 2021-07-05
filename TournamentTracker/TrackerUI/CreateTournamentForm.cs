@@ -122,7 +122,7 @@ namespace TrackerUI
 
             TournamentModel tm = new TournamentModel();
 
-            tm.TournamentName = tournamentNameLabel.Text;
+            tm.TournamentName = tournamentNameValue.Text;
             tm.EntryFee = fee;
 
             tm.Prizes = selectedPrizes;
