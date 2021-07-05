@@ -1,7 +1,7 @@
 ﻿
 namespace TrackerUI
 {
-    partial class TournamentViewer
+    partial class TournamentViewerForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -85,6 +85,7 @@ namespace TrackerUI
             this.roundDropDown.Name = "roundDropDown";
             this.roundDropDown.Size = new System.Drawing.Size(209, 38);
             this.roundDropDown.TabIndex = 3;
+            this.roundDropDown.SelectedIndexChanged += new System.EventHandler(this.roundDropDown_SelectedIndexChanged);
             // 
             // unplayedOnlyCheckbox
             // 
@@ -108,6 +109,7 @@ namespace TrackerUI
             this.matchupListBox.Name = "matchupListBox";
             this.matchupListBox.Size = new System.Drawing.Size(309, 242);
             this.matchupListBox.TabIndex = 5;
+            this.matchupListBox.SelectedIndexChanged += new System.EventHandler(this.matchupListBox_SelectedIndexChanged);
             // 
             // teamOneName
             // 
@@ -193,7 +195,7 @@ namespace TrackerUI
             this.scoreButton.Text = "Score";
             this.scoreButton.UseVisualStyleBackColor = true;
             // 
-            // TournamentViewer
+            // TournamentViewerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -214,7 +216,7 @@ namespace TrackerUI
             this.Controls.Add(this.tournamentName);
             this.Controls.Add(this.headerLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Name = "TournamentViewer";
+            this.Name = "TournamentViewerForm";
             this.Text = "Tournament Viewer";
             this.ResumeLayout(false);
             this.PerformLayout();
