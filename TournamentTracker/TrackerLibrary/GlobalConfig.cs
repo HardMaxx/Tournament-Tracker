@@ -4,6 +4,7 @@ using System.Text;
 using TrackerLibrary.DataAccess;
 using System.Configuration;
 
+
 namespace TrackerLibrary
 {
     public static class GlobalConfig
@@ -35,7 +36,13 @@ namespace TrackerLibrary
 
         public static string CnnString(string name)
         {
+            //return "Tournaments";
             return ConfigurationManager.ConnectionStrings[name].ConnectionString;
+        }
+
+        public static string AppKeyLookup (string key)
+        {
+            return ConfigurationManager.AppSettings["key"];
         }
     }
 }
