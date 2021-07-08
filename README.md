@@ -31,8 +31,8 @@ Text File
   
  to send emails
  
- ` <add key="senderEmail" value="yourEmaill"/>
-    <add key="senderDisplayName" value="YourName"/> `
+ ` <appSettings> <add key="senderEmail" value="yourEmaill"/>
+    <add key="senderDisplayName" value="YourName"/>  </appSettings>  `
 
 ## Project Status
 Project is: _in progress_. 
