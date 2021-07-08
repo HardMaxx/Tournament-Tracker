@@ -21,7 +21,6 @@ Text File
     <add key="filePath" value="your localisation"/>
   </appSettings> `
   
-  
   or
   
  Database
@@ -30,6 +29,10 @@ Text File
     <add name="Tournaments" connectionString="Server= your server name ;Database=Tournaments;Trusted_Connection=True;" providerName="System.Data.SqlClient"/>
   </connectionStrings> `
   
+ to send emails
+ 
+ ` <add key="senderEmail" value="yourEmaill"/>
+    <add key="senderDisplayName" value="YourName"/> `
 
 ## Project Status
 Project is: _in progress_. 
