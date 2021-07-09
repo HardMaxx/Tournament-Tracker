@@ -21,11 +21,11 @@ List the ready features here:
 - sql and text database
 
 ## Screenshots
-![dashboard](./ss/dashboard.png)
-![tournamentviewer](./ss/tournamentviewer.png)
-![createtournament](./ss/createtournament.png)
-![createteam](./ss/createteam.png)
-![createprize](./ss/createprize.png)
+![dashboard](./TournamentTracker/ss/dashboard.png)
+![tournamentviewer](./TournamentTracker/ss/tournamentviewer.png)
+![createtournament](./TournamentTracker/ss/createtournament.png)
+![createteam](./TournamentTracker/ss/createteam.png)
+![createprize](./TournamentTracker/ss/createprize.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 ## Setup
