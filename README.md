@@ -44,7 +44,13 @@ Text File
  ` <connectionStrings>
     <add name="Tournaments" connectionString="Server= your server name ;Database=Tournaments;Trusted_Connection=True;" providerName="System.Data.SqlClient"/>
   </connectionStrings> `
-  
+
+if u want switch between a database from text file and sql u have to go to program.cs and set:
+ 
+ `
+TrackerLibrary.GlobalConfig.InitializeConnections(TrackerLibrary.DatabaseType.Sql); or
+TrackerLibrary.GlobalConfig.InitializeConnections(TrackerLibrary.DatabaseType.TextFile); `
+
  to send emails
  
  ` <appSettings> <add key="senderEmail" value="yourEmaill"/>
